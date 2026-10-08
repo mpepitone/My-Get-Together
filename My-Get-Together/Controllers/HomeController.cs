@@ -26,5 +26,14 @@ namespace My_Get_Together.Controllers
 
             return View();
         }
+        public ActionResult Login()
+        {
+            return View();
+        }
+
+        public ActionResult LoginForm(FormCollection fc)
+        {
+            return View("Index");
+        }
     }
 }

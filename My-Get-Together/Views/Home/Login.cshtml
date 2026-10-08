@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+
+@using (Html.BeginForm("LoginForm", "Home", FormMethod.Post))
+{
+    <br />
+    <div class="container login-container">
+        <h4 style="text-align:center;">Login to start planning your next get together or view your upcoming get together(s)!</h4>
+        <br />
+        <input type="email" class="form-control" placeholder="you@gmail.com" />
+        <br />
+        <input type="password" class="form-control" placeholder="Password*" />
+        <br />
+        <input type="submit" value="Login" class="form-control submit-btn" />
+    </div>
+}
+<br />
+
